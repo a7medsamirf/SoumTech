@@ -38,7 +38,7 @@
    <button
            @click="handleError"
             type="button"
-            class="inline-flex items-center text-sm font-semibold justify-center py-3 px-5 text-center rounded-lg text-dark bg-gradient-to-b from-[#FFD600] to-[#FFB800] shadow-[0px_9px_44px_0px_#ffd60030]"
+            class="text-white font-medium rounded-md text-sm px-6 py-3 mt-5 text-center bg-primary-color dark:hover:bg-primary-color"
           >
           Go Home
           </button>
