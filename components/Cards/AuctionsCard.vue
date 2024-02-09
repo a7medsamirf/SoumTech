@@ -10,7 +10,7 @@ onMounted(() => {
 <template>
 
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3  xl:grid-cols-4 mt-10 gap-2">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-5 lg:mt-10 gap-2 lg:gap-3">
           <div v-for="index in 8" :key="index" class="rounded-lg relative px-2 md:px-1">
 
             <div class="items-center gap-5 mb-10"  v-if="dataloaded">
