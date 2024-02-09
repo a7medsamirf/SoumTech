@@ -1,5 +1,5 @@
 <template>
-  <section class="Auctions py-10 md:py-20 relative ">
+  <section class="Auctions md:py-20 relative ">
     <div class="container mx-auto relative px-2 sm:px-0">
 
     <TabGroup>
