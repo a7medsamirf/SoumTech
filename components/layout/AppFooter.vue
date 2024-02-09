@@ -18,11 +18,11 @@ const SocialData = ref([
 <template>
 
   <div class="bg-white pt-4 sm:pt-10 lg:pt-12 dark:bg-dark">
-    <footer class="container mx-auto relative px-4 md:px-8">
+    <footer class="container mx-auto relative px-2 sm:px-0">
 
-    <div class="mb-16 grid grid-cols-12 gap-10 pt-10 lg:gap-8 lg:pt-12">
+    <div class="mb-16 grid grid-cols-12 gap-2 pt-10 lg:gap-10 lg:pt-12">
 
-      <div class="col-span-12 md:col-span-6 lg:col-span-4">
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 mb-5">
         <!-- logo - start -->
         <div class="mb-4 lg:-mt-2">
           <a href="/" class="inline-flex items-center gap-2 text-xl font-bold text-black md:text-2xl" aria-label="logo">
@@ -55,7 +55,7 @@ const SocialData = ref([
       </div>
 
       <!-- nav - start -->
-      <div class="col-span-12 md:col-span-6 lg:col-span-3 relative">
+      <div class="col-span-12 md:col-span-6 lg:col-span-3 relative mb-5">
         <div class="relative z-10 inline-block mb-4 text-lg font-bold uppercase text-custom-color dark:text-white after:absolute after:-bottom-2 after:right-0 after:left-0 after:-z-10 after:h-1 after:w-[30px] after:bg-[#f59e20] after:content-['']">
           {{ $t("Footer.MainMenu") }}
         </div>
@@ -83,7 +83,7 @@ const SocialData = ref([
       <!-- nav - end -->
 
       <!-- nav - start -->
-      <div class="col-span-12 md:col-span-6 lg:col-span-2">
+      <div class="col-span-12 md:col-span-6 lg:col-span-2 mb-5">
         <div class="relative z-10 inline-block mb-4 text-lg font-bold uppercase text-custom-color dark:text-white after:absolute after:-bottom-2 after:right-0 after:left-0 after:-z-10 after:h-1 after:w-[30px] after:bg-[#f59e20] after:content-['']">
           {{ $t("Footer.sections") }}
         </div>
@@ -104,7 +104,7 @@ const SocialData = ref([
       <!-- nav - end -->
 
       <!-- nav - start -->
-      <div class="col-span-12 md:col-span-6 lg:col-span-3">
+      <div class="col-span-12 md:col-span-6 lg:col-span-3 mb-5">
         <div class="relative z-10 inline-block mb-4 text-lg font-bold uppercase text-custom-color dark:text-white after:absolute after:-bottom-2 after:right-0 after:left-0 after:-z-10 after:h-1 after:w-[30px] after:bg-[#f59e20] after:content-['']">
           {{ $t("Footer.Connectus") }}
   

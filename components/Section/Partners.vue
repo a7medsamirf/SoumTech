@@ -10,7 +10,7 @@ const PartnerData = [
 
 <template>
   <section class="Partners py-16 md:py-20 relative">
-    <div class="container mx-auto relative">
+    <div class="container mx-auto relative px-2 sm:px-0">
       <div class="section-title grid grid-cols-1 pb-10 text-center">
         <!-- text - start -->
         <h3

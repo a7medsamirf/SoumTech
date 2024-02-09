@@ -1,7 +1,7 @@
 <template>
   <section class="Auctions py-16 md:py-20 relative ">
-    <div class="container mx-auto relative ">
-  <div class="px-2 sm:px-0">
+    <div class="container mx-auto relative px-2 sm:px-0">
+
     <TabGroup>
     <div class="flex justify-center items-center">
       <TabList class="flex w-full lg:w-2/4 bg-white border border-gray-200 rounded-3xl p-2 dark:bg-dark-card dark:border-dark-border shadow-[0px_30px_70px_rgba(10,22,37,0.0555514)]">
@@ -32,7 +32,7 @@
         </TabPanel>
       </TabPanels>
     </TabGroup>
-  </div>
+
 </div>
 
 </section>

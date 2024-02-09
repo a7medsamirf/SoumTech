@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden;
+}
 @layer components {
   .hover-transition {
     transition: all 0.3s ease-in-out;

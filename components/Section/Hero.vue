@@ -4,7 +4,7 @@
     id="hero"
     class="relative md:h-3/6 grid content-center bg-white bg-[url('/img/BGStars.png')] bg-cover bg-center py-36 mx-5 lg:mx-10 mt-40 rounded-3xl"
   >
-  <div >
+
     <div
       class="py-8 px-4 mx-auto max-w-screen-xl text-center relative z-10 lg:py-16 lg:px-12 self-center"
     >
@@ -22,15 +22,14 @@
       </p>
 
     </div>
-<div class="mx-auto max-w-screen-md text-center relative z-10 lg:py-16 lg:px-12 self-center top-36 lg:top-52">
-    <div class="backdrop-blur-xl p-10 py-8 px-4 rounded-2xl gap-4 flex justify-center">
+<div class="mx-auto text-center relative z-10  self-center top-36 lg:top-36">
+    <div class="backdrop-blur-xl w-auto lg:w-[650px] p-10 py-8 px-4 rounded-2xl gap-4 flex justify-center">
       <img  src="/img/hero/1.png" class="block h-3/5" alt="" />
           <img  src="/img/hero/2.png" class="block h-3/5 mt-5" alt="" />
 
       </div>
     </div>
 
-    </div>
 
   </section>
 </template>
