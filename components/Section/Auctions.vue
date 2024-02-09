@@ -13,7 +13,7 @@
         >
           <button
             :class="[
-              'w-full rounded-3xl py-4  text-sm font-medium leading-5 ',
+              'w-full rounded-3xl py-4  text-base leading-5 font-extrabold text-gray-800',
               selected
                 ? 'bg-[#DC5224] text-white shadow text-base font-extrabold focus:outline-none'
                 : 'text-base font-extrabold text-custom-color dark:text-white  hover:bg-white/[0.12] focus:outline-none',
