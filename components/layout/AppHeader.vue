@@ -18,9 +18,14 @@ const { styles } = useFixedHeader(headerRef)
       <Logo />
 
       <div class="sm:order-3 flex items-center gap-4">
+        <button
+    class="items-center gap-2 hover-transition font-bold text-white hover:text-gray-400 dark:text-white block lg:hidden"
+  >
+  <Icon name="mingcute:user-4-line" class=" w-6 text-2xl" />
+  </button>
 
         <button
-    class="inline-flex items-center gap-2 hover-transition font-bold text-white hover:text-gray-400 dark:text-white"
+    class="hidden lg:block items-center gap-2 hover-transition font-bold text-white hover:text-gray-400 dark:text-white"
   >
   <Icon name="mingcute:user-4-line" class=" w-6 text-2xl" />
 
