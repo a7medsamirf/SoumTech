@@ -24,8 +24,8 @@
     </div>
 <div class="mx-auto text-center relative z-10  self-center top-36 lg:top-36">
     <div class="backdrop-blur-xl w-auto lg:w-[650px] p-10 py-8 px-4 rounded-2xl gap-4 flex justify-center">
-      <img  src="/img/hero/1.png" class="block h-3/5" alt="" />
-          <img  src="/img/hero/2.png" class="block h-3/5 mt-5" alt="" />
+      <img  src="/img/hero/1.png" class="block  w-1/2 lg:w-auto" alt="" />
+      <img  src="/img/hero/2.png" class="block  mt-auto lg:mt-5 lg:w-auto" alt="" />
 
       </div>
     </div>
