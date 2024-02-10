@@ -34,8 +34,8 @@ const links = [
     width: 25px;
     height: 3px;
     top: 25px;
-    right: 5px;
-    left: 5px;
+    right: 10px;
+    left: 10px;
     z-index: -1;
     background-color: rgb(245, 158, 32);
 }
