@@ -2,11 +2,11 @@
 <template>
   <section
     id="hero"
-    class="relative md:h-3/6 grid content-center bg-white bg-[url('/img/BGStars.png')] bg-cover bg-center py-36 mx-5 lg:mx-10 mt-40 rounded-3xl"
+    class="relative md:h-3/6 grid content-center bg-white bg-[url('/img/BGStars.png')] bg-cover bg-center py-36 mx-5 lg:mx-10 mt-32 lg:mt-40 rounded-3xl"
   >
 
     <div
-      class="py-8 px-4 mx-auto max-w-screen-xl text-center relative z-10 lg:py-16 lg:px-12 self-center"
+      class="py-8 px-4 mx-auto max-w-screen-xl text-center relative z-10 lg:py-0 lg:px-12 self-center"
     >
       <h1
         class="flex justify-center items-center mb-4 text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight leading-none text-white dark:text-white relative"

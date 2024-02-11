@@ -17,7 +17,7 @@ const SocialData = ref([
 
 <template>
 
-  <div class="bg-white pt-4 sm:pt-10 lg:pt-12 dark:bg-dark">
+
     <footer class="container mx-auto relative px-2 sm:px-0">
 
     <div class="mb-16 grid grid-cols-12 gap-2 pt-10 lg:gap-10 lg:pt-12">
@@ -147,7 +147,7 @@ const SocialData = ref([
       {{ $t("Footer.reserved") }}
    </div>
   </footer>
-</div>
+
 
 
 
