@@ -1,25 +1,25 @@
 <template>
     <div>
 
-        <div class="flex justify-center gap-2 lg:gap-3 p-3 text-center rounded-md my-2 border dark:border-dark-border border-gray-200">
+        <div class="flex justify-center gap-2 p-3 text-center rounded-md my-2 border dark:border-dark-border border-gray-200">
           <div class="days">
               <span class="text-base font-extrabold text-custom-color dark:text-white"> {{timer.days}}</span>
-              <span class="block text-base text-custom-color dark:text-white">   {{ $t('Auctions.day') }}</span>
+              <span class="block text-sm text-custom-color dark:text-white">   {{ $t('Auctions.day') }}</span>
             </div>
           <span> :</span>
             <div class="hours">
               <span class="text-base font-extrabold text-custom-color dark:text-white"> {{timer.hours}}</span>
-              <span class="block text-base text-custom-color dark:text-white">   {{ $t('Auctions.hour') }}</span>
+              <span class="block text-sm text-custom-color dark:text-white">   {{ $t('Auctions.hour') }}</span>
             </div>
             <span> :</span>
             <div class="minutes">
               <span class="text-base font-extrabold text-custom-color dark:text-white"> {{timer.minutes}}</span>
-              <span class="block text-base text-custom-color dark:text-white">   {{ $t('Auctions.minute') }}</span>
+              <span class="block text-sm text-custom-color dark:text-white">   {{ $t('Auctions.minute') }}</span>
             </div>
             <span> :</span>
             <div class="seconds">
               <span class="text-base font-extrabold text-custom-color dark:text-white"> {{timer.seconds}}</span>
-              <span class="block text-base text-custom-color dark:text-white">   {{ $t('Auctions.second') }}</span>
+              <span class="block text-sm text-custom-color dark:text-white">   {{ $t('Auctions.second') }}</span>
             </div>
   
       

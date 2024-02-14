@@ -63,7 +63,7 @@ onMounted(() => {
   } else {
     document.documentElement.setAttribute('data-bs-theme', selectedTheme.value);
   }
-})
+}) 
 
 // customise 404 message from script section
 const error = useError();

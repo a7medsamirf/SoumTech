@@ -28,10 +28,10 @@
     "button": "Auction details",
     "Allauctions": "All auctions",
     "Number": "Assets",
-    "day": "day",
-    "hour": "hour",
-    "minute": "minute",
-    "second": "second"
+    "day": "Day",
+    "hour": "Hour",
+    "minute": "Minute",
+    "second": "Second"
   },
   "Footer":{
     "MainMenu": "Main Menu",
