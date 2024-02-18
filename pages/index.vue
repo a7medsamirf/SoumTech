@@ -4,7 +4,6 @@
 
 <template>
   <div>
-
     <div class="">
       <Hero />
     <Partners />
