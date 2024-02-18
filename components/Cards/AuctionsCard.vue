@@ -16,9 +16,21 @@ onMounted(() => {
             <div class="items-center gap-5 mb-10"  v-if="dataloaded">
               <div class="space-y-2">
                 <USkeleton class="h-[170px] w-[100]" />
-                <USkeleton class="h-4 w-[100]" />
-                <USkeleton class="h-4 w-[100]" />
-                <USkeleton class="h-4 w-[250px]" />    <USkeleton class="h-4 w-[250px]" />
+                <div class="flex items-center justify-between">
+                 <USkeleton class="h-4 w-[150px]" />
+                  <USkeleton class="h-4 w-[100px]" />
+                 </div>
+                <USkeleton class="h-4 w-[150px]" />
+                <USkeleton class="h-4 w-[100]" />  
+
+                <div class="flex items-center justify-between">
+                  <div >
+                    <USkeleton class="h-3 w-[100px] mb-2" />
+                    <USkeleton class="h-3 w-[50px]" />
+                  </div>
+                  <USkeleton class="h-10 w-[100px]" />
+                 </div>
+      
               </div>
             </div>
 
